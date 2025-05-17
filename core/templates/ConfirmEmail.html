@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Your KittyRec Email</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+            border: 1px solid #333333;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .email-header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #333333;
+        }
+        
+        .logo {
+            height: 50px;
+            max-width: 80%;
+        }
+        
+        .email-content {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .greeting {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #8a84bc;
+        }
+        
+        .message {
+            font-size: 16px;
+            color: #b3b3b3;
+            margin-bottom: 30px;
+        }
+        
+        .verify-button {
+            display: inline-block;
+            background-color: #8a84bc;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 15px 0 25px;
+            transition: background-color 0.3s;
+        }
+        
+        .verify-button:hover {
+            background-color: #7a74a8;
+        }
+        
+        .alternative-text {
+            font-size: 14px;
+            color: #b3b3b3;
+            margin-top: 20px;
+        }
+        
+        .alternative-link {
+            color: #8a84bc;
+            word-break: break-all;
+        }
+        
+        .email-footer {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #777777;
+            border-top: 1px solid #333333;
+        }
+        
+        .social-links {
+            margin: 15px 0;
+        }
+        
+        .social-icon {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #8a84bc;
+            border-radius: 50%;
+            margin: 0 5px;
+            line-height: 30px;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <img src="https://raw.githubusercontent.com/BrahmanM/PublicCDN/0704eb17e89c2f16c7a350df3ae032231d649299/image-removebg-preview.png" alt="KittyRec Logo" class="logo">
+        </div>
+        
+        <div class="email-content">
+            <h1 class="greeting">Verify Your Email</h1>
+            <p class="message">
+                Thank you for joining KittyRec! To complete your registration, please verify your email address by clicking the button below.
+            </p>
+            
+            <a href="https://{{baseurl}}/ls/click?code={{id}}" class="verify-button">Verify My Email</a>
+            
+            <p class="message">
+                 If you didn't create a KittyRec account, you can safely ignore this email.
+            </p>
+        </div>
+        
+        <div class="email-footer">
+            <p>Â© 2025 KittyRec. All rights reserved.</p>
+            <p>She be kitting on my rec, till i fail to connect to recnet</p>
+        </div>
+    </div>
+</body>
+</html>
